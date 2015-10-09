@@ -1,0 +1,30 @@
+.collapse {
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+.collapse:first-child {
+  padding-top: 0;
+}
+.collapse .hgroup span {
+  padding-left: 1.5em;
+}
+.collapse .hgroup:after {
+  position: absolute;
+  content: "+";
+  right: 1em;
+  top:20%;
+  color:#fff;
+  font-size:1.5em;
+}
+.collapse .hgroup:hover {
+  cursor:pointer;
+}
+.collapse .hgroup.active:after {
+  content: "−";
+}
+.collapse .hgroup .hgroup-title {
+	border:none;
+	padding:0.5em 1.0em;
+	background:rgba(0,0,0,0.75);
+  	color: #fff;
+}
