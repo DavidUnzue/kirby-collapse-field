@@ -1,5 +1,5 @@
 # kirby-collapse-field
-This is an extension for the Kirby 2 CMS (http://getkirby.com/).It provides a `collapse` field for the Panel, which groups all the following content until next 'collapse' field into a collapsible block.
+This is an extension for the Kirby 2 CMS (http://getkirby.com/). It provides a `collapse` field for the Panel, which groups all the following content until next 'collapse' field into a collapsible block.
 
 This is based on [ljacobs-sml](https://github.com/ljacobs-sml)'s [kirby-accordionHeadlineField](https://github.com/ljacobs-sml/kirby-accordionHeadlineField), which replaces the default 'headline' field. I created my own field because I wanted to preserve the default 'headline' field while being able to collapse content using a separate field type.
 
@@ -27,4 +27,4 @@ header_settings:
 ```
 All other fields following this until next 'collapse' field or the end of the field's list will be collapsed into a block.
 
-![Collapse field](http://vgy.me/x28OgL.gif)
+![Collapse field](screenshot.gif)
